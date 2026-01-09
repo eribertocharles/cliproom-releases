@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Cliproom Updates</title>
+    <link>https://github.com/eribertocharles/cliproom-releases</link>
+    <description>Most recent updates to Cliproom</description>
+    <language>en</language>
+
+    <!--
+    TEMPLATE: Copy this <item> block for each new release.
+
+    <item>
+      <title>Version X.Y.Z</title>
+      <sparkle:version>BUILD_NUMBER</sparkle:version>
+      <sparkle:shortVersionString>X.Y.Z</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New in X.Y.Z</h2>
+        <ul>
+          <li>Feature or fix description</li>
+        </ul>
+      ]]></description>
+      <pubDate>DAY, DD MON YYYY HH:MM:SS +0000</pubDate>
+      <enclosure
+        url="https://github.com/eribertocharles/cliproom-releases/releases/download/vX.Y.Z/Cliproom-X.Y.Z.zip"
+        sparkle:edSignature="SIGNATURE_FROM_SIGN_UPDATE_TOOL"
+        length="FILE_SIZE_IN_BYTES"
+        type="application/octet-stream"/>
+    </item>
+    -->
+
+  </channel>
+</rss>
