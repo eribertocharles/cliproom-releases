@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+  <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+      <title>Cliproom Updates</title>
+      <item>
+        <title>Version 1.01</title>
+        <sparkle:version>1.01</sparkle:version>
+        <sparkle:shortVersionString>1.01</sparkle:shortVersionString>
+        <description><![CDATA[
+          <h2>What's New in 1.01</h2>
+          <ul>
+            <li>Improved video playback performance</li>
+            <li>Added frame caching for smoother scrubbing</li>
+            <li>Optimized filter processing</li>
+          </ul>
+        ]]></description>
+        <pubDate><!-- Current date in RFC 2822 format --></pubDate>
+        <enclosure
+          url="https://github.com/eribertocharles/cliproom-releases/releases/download/v1.01/Cliproom-1.01.zip"
+          sparkle:edSignature="<!-- paste signature from sign_update -->"
+          length="<!-- file size in bytes -->"
+          type="application/octet-stream"/>
+      </item>
+      <!-- Keep the old v1.0 item below -->
+    </channel>
+  </rss>
+
+
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Cliproom Updates</title>
